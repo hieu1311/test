@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+<title>Bài 1.1</title>
+	
+	<script type="text/javascript">
+		function cong() {
+			var a = parseInt(document.getElementById("so-1").value);
+			var b = parseInt(document.getElementById("so-2").value);
+			var c = a + b;
+			alert(c);
+		}
+	</script>
+
+
+</head>
+
+<body>
+
+	<input type="number" placeholder="So a" id="so-1">
+	<input type="number" placeholder="So b" id="so-2">
+	<button onclick="cong()">Cong</button>
+
+</body>
+
+</html>
